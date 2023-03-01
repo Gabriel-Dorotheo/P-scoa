@@ -1,0 +1,12 @@
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\bin\Debug\Pascoa.exe.config
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\bin\Debug\Pascoa.exe
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\bin\Debug\Pascoa.pdb
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.csproj.AssemblyReference.cache
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.Form1.resources
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.Properties.Resources.resources
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.csproj.GenerateResource.cache
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.exe
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.pdb
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.F_Inicio.resources
