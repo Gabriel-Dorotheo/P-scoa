@@ -99,7 +99,7 @@
             "Sensação",
             "Beijinho",
             "Prestigio",
-            "Brownie"});
+            "Nozes"});
 			this.checkedListBox1.Location = new System.Drawing.Point(186, 123);
 			this.checkedListBox1.Name = "checkedListBox1";
 			this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
@@ -112,7 +112,7 @@
 			this.cb3.FormattingEnabled = true;
 			this.cb3.Items.AddRange(new object[] {
             "50g",
-            "250g",
+            "350g",
             "500g"});
 			this.cb3.Location = new System.Drawing.Point(105, 145);
 			this.cb3.Name = "cb3";

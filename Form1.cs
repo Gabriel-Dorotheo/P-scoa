@@ -30,11 +30,23 @@ namespace Pascoa
 			abrir.Show();
 		}
 
-		private void pedidoToolStripMenuItem_Click(object sender, EventArgs e)
+
+		private void gerenciarToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			F_Inicio abrir = new F_Inicio();
 			abrir.Show();
 		}
 
+		private void gerenciarToolStripMenuItem1_Click(object sender, EventArgs e)
+		{
+			F_GerenciarPedidos abrir = new F_GerenciarPedidos();
+			abrir.Show();
+		}
+
+		private void button2_Click_1(object sender, EventArgs e)
+		{
+			F_GerenciarPedidos abrir = new F_GerenciarPedidos();
+			abrir.Show();
+		}
 	}
 }

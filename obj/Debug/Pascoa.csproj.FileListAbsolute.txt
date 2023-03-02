@@ -10,3 +10,4 @@ C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.csproj.CoreCompil
 C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.exe
 C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.pdb
 C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.F_Inicio.resources
+C:\Users\Gabriel Dorotheo\source\repos\Pascoa\obj\Debug\Pascoa.F_GerenciarPedidos.resources

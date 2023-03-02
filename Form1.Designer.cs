@@ -32,9 +32,9 @@
 			this.button2 = new System.Windows.Forms.Button();
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
 			this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.pedidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
 			this.gerenciarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.pedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.gerenciarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -56,11 +56,13 @@
 			this.button2.TabIndex = 1;
 			this.button2.Text = "Pedidos";
 			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.button2_Click_1);
 			// 
 			// menuStrip1
 			// 
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.novoToolStripMenuItem});
+            this.novoToolStripMenuItem,
+            this.pedidosToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
 			this.menuStrip1.Size = new System.Drawing.Size(284, 24);
@@ -70,30 +72,32 @@
 			// novoToolStripMenuItem
 			// 
 			this.novoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pedidoToolStripMenuItem,
-            this.toolStripMenuItem1,
             this.gerenciarToolStripMenuItem});
 			this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
 			this.novoToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
 			this.novoToolStripMenuItem.Text = "Novo";
-			// 
-			// pedidoToolStripMenuItem
-			// 
-			this.pedidoToolStripMenuItem.Name = "pedidoToolStripMenuItem";
-			this.pedidoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-			this.pedidoToolStripMenuItem.Text = "Pedido";
-			this.pedidoToolStripMenuItem.Click += new System.EventHandler(this.pedidoToolStripMenuItem_Click);
-			// 
-			// toolStripMenuItem1
-			// 
-			this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-			this.toolStripMenuItem1.Size = new System.Drawing.Size(213, 6);
 			// 
 			// gerenciarToolStripMenuItem
 			// 
 			this.gerenciarToolStripMenuItem.Name = "gerenciarToolStripMenuItem";
 			this.gerenciarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.gerenciarToolStripMenuItem.Text = "Gerenciar";
+			this.gerenciarToolStripMenuItem.Click += new System.EventHandler(this.gerenciarToolStripMenuItem_Click);
+			// 
+			// pedidosToolStripMenuItem
+			// 
+			this.pedidosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gerenciarToolStripMenuItem1});
+			this.pedidosToolStripMenuItem.Name = "pedidosToolStripMenuItem";
+			this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+			this.pedidosToolStripMenuItem.Text = "Pedidos";
+			// 
+			// gerenciarToolStripMenuItem1
+			// 
+			this.gerenciarToolStripMenuItem1.Name = "gerenciarToolStripMenuItem1";
+			this.gerenciarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+			this.gerenciarToolStripMenuItem1.Text = "Gerenciar";
+			this.gerenciarToolStripMenuItem1.Click += new System.EventHandler(this.gerenciarToolStripMenuItem1_Click);
 			// 
 			// Form1
 			// 
@@ -119,9 +123,9 @@
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.MenuStrip menuStrip1;
 		private System.Windows.Forms.ToolStripMenuItem novoToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem pedidoToolStripMenuItem;
-		private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
 		private System.Windows.Forms.ToolStripMenuItem gerenciarToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem pedidosToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem gerenciarToolStripMenuItem1;
 	}
 }
 
