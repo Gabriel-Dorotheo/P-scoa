@@ -233,7 +233,7 @@
 			this.MaximizeBox = false;
 			this.Name = "F_Inicio";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "F_Inicio";
+			this.Text = "Novo Pedido";
 			this.Load += new System.EventHandler(this.F_Inicio_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
